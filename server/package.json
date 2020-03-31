@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,13 @@
   },
   "author": "Kaiser",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ikReza/mychat-1#readme"
+  "homepage": "https://bitbucket.org/ikReza/mychat-1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
 }
